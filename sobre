@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d.i.y.</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <h1>d.i.y.</h1>
+<p><center><img src="https://blinkies.neocities.org/b/display/0068-mainframe.gif">   <img src="https://blinkies.neocities.org/b/display/0056-pirate.gif">   <img src="https://blinkies.neocities.org/b/display/0048-libra.gif">   <img src="https://64.media.tumblr.com/9dd740e4361a7b8690877c6e76207a24/d1f054058bce5477-3b/s250x400/5f1901a0891cdba477c51fac37ce3c7f62b38dcc.gifv"></center></p>
+<center> ines. latinoamericana. historiadora.</center>
+<center>ludita digital. an-arkhé.</center>
+<p>soy simultaneamente estudiante, graduada y docente en la carrera de historia de puan porque así de enamorada estoy de mi disciplina. en la guerra contra el tiempo que plantea el capitalismo tardío, me permito experimentar aprendiendo lo básico de html para generar este espacio ci8ernético donde poder expresar mis intereses y compartirlos con quienes les pueda interesar.</p>
+<p>en ese sentido, como lo son las iniciales del nombre, adhiero a los principios de la ética diy (<i>do it yourself</i>/<i>hacelo vos mismx</i>) como una herramienta común.</p>
+<p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+<p><center><img src=https://64.media.tumblr.com/df8629cbfb0458b3a62c73cdc6ee8994/db0db92489822a93-97/s100x200/1b460f08a36b8277851d8235a3b8c92b810f7eef.gifv></center></p>
+                        <div class="container">
+        <footer id="footer" style="margin-bottom: 1px;"></footer></div>
+  </body>
+</html>
