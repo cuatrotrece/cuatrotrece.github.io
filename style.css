@@ -136,7 +136,7 @@ margin:auto;
   color: white;
   font-size: 30px;
 }
-#footer {position: absolute;
+#footer {position: relative;
                 background-color: #008282;
                 /* background color for footer */
                 width: 100%;
