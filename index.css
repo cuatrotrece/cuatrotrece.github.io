@@ -217,7 +217,3 @@ transform: scale(1.3);
   font-family: "Bedrock", monospace;
 
 }
-
-.button:hover {
-transform: scale(1.2);
-}
