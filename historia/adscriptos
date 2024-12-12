@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taller de lectura de adscriptos</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+          <div id="container">
+            <div class="headerarea">
+
+            <nav id="navbar" style="margin-bottom: 10px;"><ul>
+                <li><a href="/index.html">inicio</a></li>
+                <li><a href="/historia.html">sección historia</a></li>
+              </ul></nav></div>
+              <h1>taller de lectura de adscriptos</h1>
+<p>el taller/grupo/club de lectura de adscriptos es, como lo dice el nombre, un grupo que armamos con mi amigo franco -ambos adscriptos de materias de la carrera de historia- para impulsarnos mutuamente a leer obras vinculadas a la teoría de la historia, metodología o historiografía, al igual que "clásicos" que sentíamos que lxs docentes de la carrera mencionaban pero que no llegabamos realmente a leer. y como leer siempre es mejor cuando lo podemos discutir en grupo y con un cronograma, fuimos ampliando de boca en boca el acompañarnos entre adscriptxs que queríamos profundizar en dicha formación. el mismo comenzó en octubre de 2023. básicamente, elegimos entre un listado de obras que sugerimos como cosas que queremos leer para nuestra formación como historiadores y nos juntamos una vez al mes para discutirlas. también es un encuentro donde intercambiamos experiencias de adscripción, ideas y proyectos para la carrera.</p>
+<h2> encuentros previos</h2>
+<ul style="color:white;">
+<li>25.10.2023 - GINZBURG, Carlo. <i>El hilo y las huellas</i></li>
+<li>28.11.2023 - GINZBURG, Carlo. <i>El hilo y las huellas.</i> parte 2</li>
+<li>30.01.2024 - BENJAMIN, Walter. <i>Las tesis sobre el concepto de la historia</i></li>
+<li> 21.03.2024 - FOUCAULT, Michel. “Capítulo IV.”. <i>En Historia de la sexualidad I</i></li>
+<li>18.04.2024 - Propuestas y proyectos</li>
+<li>29.06.2024 - KOSELLECK, Reinhardt. <i>Futuro pasado.</i></li>
+<li>30.07.2024 - KOSELLECK, Reinhardt. <i>Futuro pasado.</i> parte 2</li>
+<li>31.08.2024 - ZEMON DAVIS, Natalie. <i>Mujeres de los márgenes.</i></li>
+<li>20.09.2024 - ZEMON DAVIS, Natalie. <i>Mujeres de los márgenes</i> parte 2. Versión Interescuelas</i></li>
+<li>02.11.2024 - FRADKIN, Raúl. <i>Historia de una montonera. Bandolerismo y caudillismo en Buenos Aires, 1826.</i></li>
+<p></p>
+<h2>próximo encuentro:</h2> <p> 28.12.2024- WILLIAMS, Raymond. <i>Marxismo y literatura</i></p>
+</ul>
+
+</body>
+                        <div class="container">
+        <footer id="footer"></footer></div>
+</html>
