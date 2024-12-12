@@ -3,7 +3,7 @@ html {
     background-size: 100px, auto, contain;
     background-image: url(https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif);
   font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high  */
-  font-family: "Bedrock", monospace; /* this should be the rest of the output you got from Google fonts */
+  font-family: "Silla Slab Highlight", monospace; /* this should be the rest of the output you got from Google fonts */
 }
 h1 {
   margin: 0px;
