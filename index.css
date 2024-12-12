@@ -187,11 +187,6 @@ margin:auto;
 transform: scale(1.3);
 }
 
-.middle :hover {
-  transform: scale(1.4);
-}
-
-
 .content{
   width:900px;
   align-self:center;
