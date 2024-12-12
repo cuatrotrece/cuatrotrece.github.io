@@ -10,7 +10,7 @@ h1 {
   width: 750px;
   font-family:"Zilla Slab Highlight";
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 300px;
   text-decoration: underline;
   text-align: center;
   color: #38ffdb;
@@ -18,7 +18,9 @@ h1 {
 h2 {
   margin: 0px;
   width: 750px;
+  font-family:"Zilla Slab Highlight";
   font-size: 20px;
+  font-weight: 300px;
   text-align: justify;
   color: #38ffdb;
   margin-left:25px;
