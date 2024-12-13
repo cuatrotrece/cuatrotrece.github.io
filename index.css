@@ -72,6 +72,7 @@ table, th, td {
  #navbar {
                 height: 30px;
    width: 1150px;
+letter-spacing: 5px;
                 background-color: transparent;
                 /* navbar color */
                 width: 100%;
