@@ -71,8 +71,6 @@ table, th, td {
 
  #navbar {
                 height: 30px;
-   width: 1150px;
-letter-spacing: 5px;
                 background-color: transparent;
                 /* navbar color */
                 width: 100%;
@@ -187,6 +185,7 @@ margin:auto;
 
 .button :hover {
 transform: scale(1.3);
+padding: 5px;
 }
 
 .content{
