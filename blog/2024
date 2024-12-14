@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upd8</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <style>    .cajita {position:absolute; width: 300px; left:0%; top:0%;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-top: 150px;
+  text-align: left;
+  background-color:transparent;
+  color:#38ffdb;
+                       }
+    </style>
+  </head>
+  <body>
+          <div id="container">
+            <div class="headerarea">
+                                <center>
+                <img src="blog.png">
+                </center>
+                
+            <nav id="navbar" style="margin-bottom: 50px;"><ul>
+                <li><a href="/index.html">inicio</a></li>
+                <li><a href="/archivo.html">archivo</a></li>
+              </ul></nav></div>
+              <div class='extra3'>
+        <div class="greentxt">
+               <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+                20 de octubre, 2024 08hs - 
+              <b>postales de la toma</b>
+<br><u>escuchando</u>: <i>everything is romantic featuring caroline polachek</i> de charli xcx
+       <center><img src="https://64.media.tumblr.com/8ee43fd2e33063b23f21565f85eb53e5/20a357dfa0247346-37/s2048x3072/c502e7cda7ff63d1374a3f12da4a4ce255a94610.jpg" height=500px>
+       <img src="https://64.media.tumblr.com/197a273e1ada08c0ed8a0fcb0e245fb9/20a357dfa0247346-7c/s1280x1920/3f29e4ea0113dd02be619ab2d2c997d5d43a9ec6.jpg" height=500px></center>
+          <p>estoy en mi leslie feinberg flikr era</p>
+               </div>
+                <div class='extra3'>
+        <div class="greentxt">
+               <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+                23 de agosto, 2024 09:40hs - 
+              <b>bufanda de la hidra final</b>
+<br><u>categoría</u>: manualidades historiográficas; hsg
+       <p>proceso y resultado final de la bufanda para la clase de <i>La hidra de la revolución</i> de Linebaugh y Rediker</p>
+       <center><img src="https://64.media.tumblr.com/32bc1dffd87f88f34988b8446b271f12/b4e64147c32d9bee-c5/s1280x1920/a8f762d1f33b3fd575c7e9257f037dbe974ce7f0.pnj" height=220px>
+       <img src="https://64.media.tumblr.com/0aaef8c5d08eb8b35ab8a25b26aad6c5/b4e64147c32d9bee-50/s1280x1920/62b02a5a5021e43b2cfb4b2de803715ce3a2c146.pnj" height=220px></center>
+          <p>cabezas</p>
+       <center><img src="https://64.media.tumblr.com/30b0591c7acf1379d67f70ab5f207bf2/b4e64147c32d9bee-82/s1280x1920/fca8d30ae84fa8156d790a63aa846a5f8f5de809.pnj" height=500px></center>
+       <p>¡resultado final!</p>
+               </div>
+              <div class='extra3'>
+        <div class="greentxt">
+               <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+                19 de agosto, 2024 00:28hs - 
+              <b>bufanda de la hidra</b>
+<br><u>categoría</u>: manualidades  historiográficas
+<br><u>escuchando</u>: <i>Charlando de Historia</i> Episodio 5: San Martín y los usos de la historia con Alejandro Cattaruzza
+                        </div>
+       <p>¡avances de mi bufanda basada en <i>La hidra de la revolución</i> de Linebaugh y Rediker!</p>
+       <center><img src="https://64.media.tumblr.com/02d2eb450f907863d30c7d48278f705a/91f7c5a57290e15d-7e/s500x750/38d49f673d62ba774dde16377de7d313e7cf0684.pnj" height=220px>
+       <img src="https://64.media.tumblr.com/a73a6d3dec9a07e2a75abaedb8b182ba/91f7c5a57290e15d-11/s540x810/82a66b2175160820a43eadc6ba7db8350100222c.pnj" height=220px>
+       <img src="https://64.media.tumblr.com/035ca1526f223a848841fe7a54809157/91f7c5a57290e15d-50/s1280x1920/d0d24ccacc38efa842caeddde1324b509501c36f.pnj" height=220px></center>
+       <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+               </div>
+                  <div id="container">
+  <div class="cajita"> 
+  <h2>cronológico</h2>
+  <ul><a href="/blog/2024.html">2024</a>
+  <li><a href="/blog/2024/octubre.html">octubre</a></li>
+  <li><a href="/blog/2024/agosto.html">agosto</a></li></ul>
+<h2>categorías</h2>
+  <ul>
+  <li><a href="/categorias/manualidades+historiograficas.html">manualidades historiográficas</a></li>
+  <li><a href="/categorias/hsg">hsg</a></li></ul>
+</div></div>
+  </body>
+
+</html>
