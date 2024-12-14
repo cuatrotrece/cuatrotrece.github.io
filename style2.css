@@ -172,6 +172,7 @@ margin-top: 0px;
 
 #referencias
 {position:absolute; width: 600px; left:5%; top:6%;
+ overflow:auto;
   margin-bottom: 0px;
   margin-left:0px;
   margin-top: 300px;
