@@ -29,7 +29,6 @@ p {
     text-align: justify;
     color:  #d9f1e9 ;
     margin-left: 25px;
-  font-family: "Zilla Slab Highlight";
 }
 
 
@@ -154,7 +153,7 @@ margin:auto;
   margin: auto;
   text-align: left;
   border: 3px rgb( 217, 241, 233 );
-  font-family: "Bedrock", monospace;
+  font-family: "Zilla Slab Highlight";
    width:800px;
   word-spacing: 5px;
   background-image: url(https://64.media.tumblr.com/5f3636e59494f45ab9b1aa326309ffa2/931d39396eadf5a4-4f/s2048x3072/6fd557eb283652ebe30e33f3832081fe24c247f8.png);
@@ -162,6 +161,6 @@ margin:auto;
 
 .greentxt {
   color: #38ffdb;
-  font-family: "Bedrock", monospace;
+  font-family: "Zilla Slab Highlight";
 
 }
