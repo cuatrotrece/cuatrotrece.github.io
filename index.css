@@ -48,6 +48,7 @@ a:link, a:active, a:visited {color: #38ffdb}
 a:hover {
   color: red;
 transition: color .8s}
+
 head {position:fixed; width:900px; top:10%;
 }
 
@@ -68,7 +69,9 @@ table, th, td {
             #container a {
                 color: #38ffdb;
             }
-
+#container a:hover {
+                color:red;
+                text-decoration: underline;
  #navbar {
                 height: 30px;
                 background-color: transparent;
@@ -107,9 +110,7 @@ table, th, td {
             #flex {
                 display: flex;
             }
-            #container a {
-                color: #38ffdb;
-                text-decoration: none;
+
  }
 #header {position:absolute; width: 900px; left:15%; top:1%;
 margin:auto;
