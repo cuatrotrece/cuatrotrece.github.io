@@ -14,7 +14,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
       overflow: auto;
-    white-space: nowrap;
+    white-space: normal;
 }
 body {
   width: 800px;
