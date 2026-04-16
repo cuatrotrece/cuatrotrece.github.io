@@ -1,19 +1,6 @@
 {
     box-sizing: border-box;
 }
-
-html, body {
-    margin: 0;
-    padding: 10px; /* Un poco de aire en los bordes */
-    width: 100%;
-    overflow-x: hidden; /* Corta cualquier cosa que intente salirse de lado */
-}
-
-/* Forzar a que las imágenes y botones no midan más que el ancho del teléfono */
-img, .button, .button img {
-    max-width: 100% !important;
-    height: auto !important;
-
 html {
   background-color: rgb(0, 0, 0);
     background-size: 150px, auto, contain;
