@@ -7,7 +7,7 @@
   If you include the next line in all your web pages, they will all share the same look. This makes it easier to make new pages for your site. --> 
     <link href="/index.css" rel="stylesheet" type="text/css" media="all"> 
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet"> 
-    <style> * { box-sizing: border-box;} 
+    <style>
       /* ESTILO MÓVIL (Por defecto) */ 
       .cajita { width: 100%; margin-top: 40px; 
                /* Espacio para que no esté pegada a los links */ 
@@ -16,9 +16,6 @@
                border-top: 1px solid #38ffdb; /* Opcional: una línea para separar */ 
                padding-top: 20px; 
               } 
-      #main-content { 
-        width: 90%; 
-      } 
       /* ESTILO COMPUTADORA (Pantallas mayores a 768px) */ 
       @media (min-width: 768px) 
       { .cajita { 
@@ -27,7 +24,8 @@
         top: 20px; /* Ajusta qué tan arriba o abajo la quieres */ 
         width: 250px; 
         border-top: none; 
-        padding-top: 0; } 
+        padding-top: 0; 
+      } 
        #main-content { margin-left: 100px; /* Empuja el texto a la derecha para que la cajita no lo tape */ 
                       max-width: 800px; 
                       width: 90%; } 
