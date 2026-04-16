@@ -8,6 +8,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
+        body {
+            margin: 0;
+            padding: 15px;
+            overflow-x: hidden;
+            background-color: #000; /* Asumiendo fondo oscuro por el color de texto */
+            color: white; 
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilo de la cajita */
+        .cajita {
+            width: 100%;
+            max-width: 300px;
+            margin-top: 20px;
+            text-align: left;
+            background-color: transparent;
+            color: #38ffdb;
+        }
+
+        /* Solo para computadoras (Pantallas grandes) */
+        @media (min-width: 768px) {
+            .cajita {
+                position: absolute;
+                left: 20px;
+                top: 60px;
+            }
+            #main-content {
+                margin-left: 330px; /* Desplaza el texto para que no lo tape la cajita */
+            }
+        }
+
+        .button {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        center {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav id="navbar" style="margin-bottom: 20px; text-align: center;">
+            <div class="button">
+                <a href="historia.html"><img src="historia.png" width="200" alt="historia"></a>
+                <a href="musica.html"><img src="musica.png" width="200" alt="musica"></a>
+                <a href="animacion.html"><img src="animacion.png" width="200" alt="animacion"></a>
+            </div>
+        </nav>
+
+        <center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif" alt="separador"></center>
+
+        <div id="main-content">
+            <h2>2025</h2>
+            <p>28 de diciembre - <a href="blog/2025/top.html">favoritos de 2025</a></p>
+            <p>28 de noviembre - <a href="/historia/historia-y-devastacion-iijehuba.html">Intervención en el panel "Historia y Devastación" de las II Jornadas de Estudiantes de Historia de la UBA</a></p>
+            <p>26 de junio - <a href="/animacion/reseñas/totb.html"><i>Sacate la Venda, Acomodá Tus Ojos, Mirá el Espejo, Observá el Rostro de tu Madre</i> de Jonni Pepper-GoLions</a> para <i>GUAY</i></p>
+            <p>18 de enero - <a href="/musica/brat-remix-summer.html"><i>brat/remix</i> summer</a> para revista <i>URBE</i> y <i>Asado y Presente</i></p>
+
+            <h2>2024</h2>
+            <p>29 de diciembre - <a href="/blog/2024/resumen.html">resumen 2024</a></p>
+            <p>20 de diciembre - <a href="/historia/reseñas/arte-y-memoria.html">reseña. <i>Arte y memoria...</i></a> para <i>EU-Topias</i></p>
+            <p>18 de diciembre - <a href="/historia/asado-y-presente/operacion e-s-t-u-d-i-a-n-t-e-s.html">OPERACIÓN E.S.T.U.D.I.A.N.T.E.S.</a> para <i>Asado y Presente</i></p>
+            <p>27 de noviembre - <a href="/historia/apertura-jornadas.html">Apertura de las I Jornadas de Estudiantes de Historia de la UBA</a></p>
+            <p>14 de julio - <a href="/musica/l.o.v.e.html">un análisis hyperespecífico de <i>L.O.V.E.</i> de SOPHIE</a></p>
+        </div>
+
+        <center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif" alt="separador"></center>
+
+        <div class="cajita">
+            <h2>sitio web personal de don ines yasuda</h2>
+            <p>repositorio de las cosas que hago</p>
+            <div class="button">
+                <a href="sobre"><img src="https://64.media.tumblr.com/c3032ffac7ba77cc6a1912092f06422d/62b3f743cafdd4cd-9d/s1280x1920/ed54c5e08fb795981b22c2e246a92122f1d3773f.pnj" width="200" alt="sobre"></a>
+            </div>
+            <div class="button">
+                <a href="blog.html"><img src="blog.png" width="150" alt="blog"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ludita digital</title>
+    <link href="/index.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
         /* Ajustes básicos para que nada se rompa */
         body {
             margin: 0;
