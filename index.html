@@ -1,5 +1,115 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ludita digital</title>
+    <link href="/index.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Agregamos el asterisco para que el box-sizing funcione */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 10px;
+            overflow-x: hidden; /* Vital para que no haya scroll lateral */
+        }
+
+        /* ESTILO MÓVIL (Por defecto) */
+        .cajita {
+            width: 100%;
+            margin-top: 40px;
+            text-align: center;
+            color: #38ffdb;
+            border-top: 1px solid #38ffdb;
+            padding-top: 20px;
+        }
+
+        #main-content {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            max-width: 100%;
+            word-wrap: break-word; /* Rompe links largos si es necesario */
+        }
+
+        img {
+            max-width: 100%; /* Las imágenes nunca se salen de la pantalla */
+            height: auto;
+        }
+
+        /* ESTILO COMPUTADORA (Pantallas mayores a 768px) */
+        @media (min-width: 768px) {
+            .cajita {
+                position: absolute;
+                left: 20px;
+                top: 20px;
+                width: 250px;
+                border-top: none;
+                padding-top: 0;
+                text-align: left;
+            }
+            #main-content {
+                margin-left: 280px; /* Ajustado para que no tape */
+                max-width: 800px;
+            }
+            nav#navbar {
+                margin-left: 280px;
+            }
+        }
+
+        .button {
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <nav id="navbar" style="margin-bottom: 20px;">
+            <center>
+                <div class="button">
+                    <a href="historia.html"><img src="historia.png" style="max-width: 200px; width: 30%;" alt="historia"></a>
+                    <a href="musica.html"><img src="musica.png" style="max-width: 200px; width: 30%;" alt="musica"></a>
+                    <a href="animacion.html"><img src="animacion.png" style="max-width: 200px; width: 30%;" alt="animacion"></a>
+                </div>
+            </center>
+        </nav>
+
+        <div id="main-content">
+            <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+            
+            <h2>2025</h2>
+            <p>28 de diciembre - <a href="blog/2025/top.html">favoritos de 2025</a></p>
+            <p>28 de noviembre - <a href="/historia/historia-y-devastacion-iijehuba.html">Intervención en el panel "Historia y Devastación" de las II Jornadas de Estudiantes de Historia de la UBA</a></p>
+            <p>26 de junio - <a href="/animacion/reseñas/totb.html"><i>Sacate la Venda, Acomodá Tus Ojos...</i></a></p>
+            <p>18 de enero - <a href="/musica/brat-remix-summer.html"><i>brat/remix</i> summer</a></p>
+
+            <h2>2024</h2>
+            <p>29 de diciembre - <a href="/blog/2024/resumen.html">resumen 2024</a></p>
+            <p>20 de diciembre - <a href="/historia/reseñas/arte-y-memoria.html">reseña. <i>Arte y memoria.</i></a></p>
+            <p>18 de diciembre - <a href="/historia/asado-y-presente/operacion e-s-t-u-d-i-a-n-t-e-s.html">OPERACIÓN E.S.T.U.D.I.A.N.T.E.S.</a></p>
+            
+            <p><center><img src="https://bugcreature.neocities.org/images/gifs/dl2.gif"></center></p>
+        </div>
+
+        <div class="cajita">
+            <h2>sitio web personal de don ines yasuda</h2>
+            <p>repositorio de las cosas que hago</p>
+            <div class="button">
+                <a href="sobre"><img src="https://64.media.tumblr.com/c3032ffac7ba77cc6a1912092f06422d/62b3f743cafdd4cd-9d/s1280x1920/ed54c5e08fb795981b22c2e246a92122f1d3773f.pnj" width="200" alt="sobre"></a>
+            </div>
+            <div class="button">
+                <a href="blog.html"><img src="blog.png" style="max-width: 150px; width: 50%;" alt="blog"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
