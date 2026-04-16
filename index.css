@@ -4,8 +4,8 @@ html {
     background-image: url(https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif);
   font-size: 15px;
   font-family: "Bedrock", monospace; 
-  overflow-x: hidden;
 }
+
 h1 {
   margin: 0px;
   width: 750px;
@@ -33,7 +33,6 @@ p {
 
 body {
   max-width: 800px;
-  width: 90%;
   margin: 50px auto;
   background-color: transparent;
   padding: 0 20px 20px 20px;
