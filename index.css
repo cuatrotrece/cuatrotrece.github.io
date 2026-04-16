@@ -192,7 +192,7 @@ transform: scale(1.3);
 }
 
 .content{
-  width:900px;
+  width:100%;
   align-self:center;
   padding: 30px;
   color: green;
