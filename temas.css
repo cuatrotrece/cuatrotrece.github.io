@@ -58,28 +58,24 @@ table, th, td {
     border: 1px solid black;
 }
 #container {
-                max-width: 100%;
-                /* this is the width of your layout! */
-                /* if you change the above value, scroll to the bottom
-      and change the media query according to the comment! */
-  margin: 0 auto; /* this centers the entire page */
+  max-width: 100%;
+  margin: 0 auto;      /* centra toda la página */
   padding: 0 12px;
   box-sizing: border-box;
-            }
+}
+
+/* enlaces de toda la página, EXCEPTO la navegación */
+#container a {
+  color: #38ffdb;
+}
+
 /* computadora */
 @media (min-width: 768px) {
   #container {
     max-width: 900px;
-    margin: 0 auto;   /* lo centra */
     padding: 0 20px;
   }
-
-            /* the area below is for all links on your page
-    EXCEPT for the navigation */
-            #container a {
-                color: #38ffdb;
-            }
-
+}
  #navbar {
                 height: 30px;
                 background-color: transparent;
