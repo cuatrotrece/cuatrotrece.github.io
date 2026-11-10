@@ -7,7 +7,7 @@ html {
 }
 h1 {
   margin: 0px;
-  width: 750px;
+  width: auto;
   font-family:"Zilla Slab Highlight";
   font-size: 30px;
   text-decoration: underline;
@@ -16,7 +16,7 @@ h1 {
 }
 h2 {
   margin: 0px;
-  width: 750px;
+  width: auto;
   font-family:"Zilla Slab Highlight";
   font-size: 20px;
   text-align: justify;
@@ -25,7 +25,7 @@ h2 {
 }
   
 p {
-    width:750px;
+    width:auto;
     text-align: justify;
     color:  #d9f1e9 ;
     margin-left: 25px;
@@ -33,12 +33,12 @@ p {
 
 
 body {
-  width: 800px;
-  margin: 50px auto;
+  width: 1200px;
+  margin: 20px auto;
   background-color: transparent;
-  padding: 0 20px 20px 20px;
+  padding: 0 12px 20px;
+  box-sizing: border-box;
   border: 1px white;
- display: 
 }
 a {
   color: #38ffdb;
@@ -72,7 +72,7 @@ table, th, td {
 /* computadora */
 @media (min-width: 768px) {
   #container {
-    max-width: 900px;
+    max-width: 1100px;
     padding: 0 20px;
   }
 }
