@@ -164,3 +164,7 @@ margin:auto;
   font-family: "Bedrock", monospace;
 
 }
+
+/* iframes e imágenes incrustadas no deben desbordar en pantallas chicas */
+iframe, img { max-width: 100%; }
+img[width]:not([height]) { height: auto; }
