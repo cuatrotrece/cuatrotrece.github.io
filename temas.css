@@ -182,7 +182,7 @@ margin:auto;
   }
   #headermus { flex: 1; }      /* ocupa el espacio que sobra, a la izquierda */
   #indice {
-    flex: 0 0 45%;             /* ancho de la caja de la derecha */
+    flex: 0 0 50%;             /* ancho de la caja de la derecha */
     margin: 0;
     padding: 0 15px;
     border: 1px solid;
