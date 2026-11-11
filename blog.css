@@ -17,7 +17,7 @@
 @media (min-width: 768px) {
   .blog-indice {
     max-width: none;
-    padding: 0 10px;   /* 10px de acá + 10px de padding de .extra3 = 20px */
+    padding: 0 20px;   /* 10px de acá + 10px de padding de .extra3 = 20px */
   }
 }
 /* --- Teléfono: el padding de .extra3 no debe desbordar ---------------- */
