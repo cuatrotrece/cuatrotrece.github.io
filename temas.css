@@ -151,7 +151,16 @@ margin:auto;
                 text-align: center;
                 /* this centers the footer text */
             }
-            
+
+.extra3 {
+  padding: 0 10px;
+  margin: auto;
+  text-align: justify;
+  width: 100%;
+    color: #d9f1e9;
+    border-top: none;}
+ 
+@media (min-width: 768px) {            
 .extra3 {
   padding: 0 10px;
   margin: auto;
