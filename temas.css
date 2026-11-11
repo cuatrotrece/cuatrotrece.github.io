@@ -243,3 +243,6 @@ margin-top:50px;
   iframe, img {max-width: 100%; }
 
   img[width]:not([height]) { height: auto; }
+
+    @media (min-width: 768px) {
+      img {max-width: 100%; }}
