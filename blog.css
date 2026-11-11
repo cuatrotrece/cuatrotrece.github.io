@@ -6,6 +6,10 @@
   line-height: 1.6;
   word-spacing: normal;     /* anula el word-spacing: 5px de .extra3 */
 }
+
+@media (max-width: 767px) {
+width= 100%;}
+
 .entrada p, .entrada h2, .entrada h3,
 .blog-indice p, .blog-indice h2, .blog-indice h3 {
   width: auto;
