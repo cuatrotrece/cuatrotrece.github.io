@@ -238,11 +238,3 @@ margin-top:50px;
   @media (min-width: 768px) {
   .bandas, .bandastitulo { margin-left: 50px; }
 }
-/* iframes e imágenes incrustadas no deben desbordar en pantallas chicas */
-
-  iframe, img {max-width: 100%; }
-
-  img[width]:not([height]) { height: auto; }
-
-    @media (min-width: 768px) {
-      img {max-width: 100%; }}
