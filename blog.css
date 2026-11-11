@@ -15,7 +15,7 @@ width= 100%;}
   width: auto;
   margin-left: 0;           /* anula la sangría de computadora de temas.css */
   margin-right: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* --- Teléfono: el padding de .extra3 no debe desbordar ---------------- */
