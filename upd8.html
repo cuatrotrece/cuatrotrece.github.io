@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog | cuatrotrece</title>
+    <meta name="description" content="entradas de blog">
+    <link rel="canonical" href="https://cuatrotrece.github.io/upd8.html">
+
+    <link href="/temas.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/blog.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="extra3">
+      <main class="blog-indice">
+
+        <header class="greentxt">
+          <img src="/blog.png">
+        </header>
+
+        <!-- FILTRO POR ETIQUETA: los botones se arman solos con las etiquetas de abajo -->
+        <div class="filtros" id="filtros" role="group" aria-label="Filtrar por etiqueta" hidden></div>
+        <p id="sin-resultados" hidden>No hay entradas con esa etiqueta.</p>
+
+        <!-- Enlaces a cada año (agregá uno por cada año que tengas) -->
+        <nav class="anios" aria-label="Años">
+          <a href="#2026">2026</a>
+          <a href="#2025">2025</a>
+        </nav>
+
+        <!-- ENTRADAS: de la más nueva a la más vieja, agrupadas por año.
+             Para cada una copiá un bloque <article class="item"> y editalo. -->
+        <section class="anio" id="2026">
+          <h2>2026</h2>
+
+          <article class="item">
+            <h3><a href="/blog/2026/nombre-de-la-entrada.html">título de la entrada más nueva</a></h3>
+            <p class="meta">
+              <time datetime="2026-11-11">11 de noviembre</time> ·
+              <!-- data-slug: la etiqueta sin tildes ni espacios (igual que en la entrada) -->
+              <a class="etiqueta" data-slug="musica" href="/blog.html?etiqueta=musica">música</a>
+              <a class="etiqueta" data-slug="historia" href="/blog.html?etiqueta=historia">historia</a> ·
+              5 min
+            </p>
+            <p class="extracto">Extracto de una o dos líneas que cuente de qué trata.</p>
+          </article>
+
+          <article class="item">
+            <h3><a href="/blog/2026/otra-entrada.html">título de otra entrada de 2026</a></h3>
+            <p class="meta">
+              <time datetime="2026-07-21">21 de julio</time> ·
+              <a class="etiqueta" data-slug="animacion" href="/blog.html?etiqueta=animacion">animación</a>
+            </p>
+            <p class="extracto">Otro extracto breve.</p>
+          </article>
+        </section>
+
+        <section class="anio" id="2025">
+          <h2>2025</h2>
+
+          <article class="item">
+            <h3><a href="/blog/2025/top.html">favoritos del 2025</a></h3>
+            <p class="meta">
+              <time datetime="2025-12-28">28 de diciembre</time> ·
+              <a class="etiqueta" data-slug="musica" href="/blog.html?etiqueta=musica">música</a> 
+            </p>
+            <p class="extracto">Álbumes, canciones, libros y películas que marcaron el año.</p>
+          </article>
+        </section>
+
+      </main>
+    </div>
+
+    <div class="extra3">
+      <nav id="navbar" style="margin-bottom: 50px;">
+        <ul>
+          <li><a href="/index.html">inicio</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Filtro por etiqueta (no hace falta tocarlo) -->
+    <script>
+      (function () {
+        var items = [].slice.call(document.querySelectorAll('.item'));
+        var anios = [].slice.call(document.querySelectorAll('.anio'));
+        var cont = document.getElementById('filtros');
+        var vacio = document.getElementById('sin-resultados');
+        if (!items.length || !cont) return;
+
+        var nombres = {};
+        items.forEach(function (it) {
+          [].forEach.call(it.querySelectorAll('.etiqueta'), function (e) {
+            nombres[e.getAttribute('data-slug')] = e.textContent.trim();
+          });
+        });
+        var slugs = Object.keys(nombres).sort(function (a, b) {
+          return nombres[a].localeCompare(nombres[b], 'es');
+        });
+        if (!slugs.length) return;
+
+        function tiene(it, slug) {
+          return [].some.call(it.querySelectorAll('.etiqueta'), function (e) {
+            return e.getAttribute('data-slug') === slug;
+          });
+        }
+        function aplicar(slug, actualizarUrl) {
+          var visibles = 0;
+          items.forEach(function (it) {
+            var ok = !slug || tiene(it, slug);
+            it.hidden = !ok;
+            if (ok) visibles++;
+          });
+          anios.forEach(function (a) { a.hidden = !a.querySelector('.item:not([hidden])'); });
+          vacio.hidden = visibles > 0;
+          [].forEach.call(cont.querySelectorAll('button'), function (b) {
+            b.setAttribute('aria-pressed', String(b.getAttribute('data-slug') === (slug || '')));
+          });
+          if (actualizarUrl && window.history && history.replaceState) {
+            history.replaceState(null, '', slug ? '?etiqueta=' + encodeURIComponent(slug) : location.pathname);
+          }
+        }
+        function crearBoton(slug, texto) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.textContent = texto;
+          b.setAttribute('data-slug', slug);
+          b.addEventListener('click', function () { aplicar(slug, true); });
+          cont.appendChild(b);
+        }
+
+        crearBoton('', 'todas');
+        slugs.forEach(function (s) { crearBoton(s, nombres[s]); });
+        cont.hidden = false;
+
+        // Al hacer clic en una etiqueta dentro de una entrada, se filtra sin recargar
+        document.addEventListener('click', function (ev) {
+          var a = ev.target.closest && ev.target.closest('a.etiqueta');
+          if (!a) return;
+          ev.preventDefault();
+          aplicar(a.getAttribute('data-slug'), true);
+        });
+
+        // Si llegás desde /upd8.html?etiqueta=musica, ya aparece filtrado
+        var inicial = new URLSearchParams(location.search).get('etiqueta');
+        aplicar(nombres[inicial] ? inicial : '', false);
+      })();
+    </script>
+
+  </body>
+</html>
