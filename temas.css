@@ -204,7 +204,7 @@ border-width:1px;
     color: whitesmoke;
     overflow: auto;
     white-space: nowrap;
-margin-left:50px;
+
 padding: 5px;
 padding-bottom:0px;
 padding-top:15px;
@@ -213,7 +213,7 @@ padding-top:15px;
 .bandastitulo {
 max-width:1150px;
 margin-top:50px;
-margin-left:50px;}
+
 .band {
     padding-left: 30px;
     padding-right: 30px;
