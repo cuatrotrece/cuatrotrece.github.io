@@ -129,7 +129,7 @@ a.etiqueta:hover { background: #38ffdb; color: #000; }
 .item { margin: 0 0 1.6em; }
 .item h3 {
   margin: 0;
-  font-family: "Bedrock", serif;
+  font-family: "Bedrock";
   font-size: 1.2em;
   line-height: 1.25;
 }
