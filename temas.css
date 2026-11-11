@@ -231,10 +231,3 @@ padding-top:15px;
 max-width:1150px;
 margin-top:50px;
 }
-.band {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-  @media (min-width: 768px) {
-  .bandas, .bandastitulo { margin-left: 50px; }
-}
