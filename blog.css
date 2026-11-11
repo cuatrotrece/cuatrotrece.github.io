@@ -40,7 +40,7 @@ img[width]:not([height]) { height: auto; }
 a.etiqueta {
   display: inline-block;
   border: 1px solid #38ffdb;
-  border-radius: 1em;
+  border-radius: 2px;
   padding: 0 .7em;
   font-size: .9em;
   text-decoration: none;
@@ -111,7 +111,7 @@ a.etiqueta:hover { background: #38ffdb; color: #000; }
   color: #38ffdb;
   background: transparent;
   border: 1px solid #38ffdb;
-  border-radius: 1em;
+  border-radius: 2px;
   padding: 0 .8em;
   cursor: pointer;
 }
