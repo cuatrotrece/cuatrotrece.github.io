@@ -21,16 +21,17 @@ h2 {
   font-size: 20px;
   text-align: justify;
   color: #38ffdb;
-  margin-left:25px;
 }
   
 p {
     width:auto;
     text-align: justify;
     color:  #d9f1e9 ;
-    margin-left: 25px;
 }
 
+@media (min-width: 768px) {
+  h2, p { margin-left: 25px; }
+}
 
 body {
   max-width: 1200px;
