@@ -1,0 +1,130 @@
+.entrada,
+.blog-indice {
+  max-width: 65ch;          /* ~65 caracteres por línea */
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  word-spacing: normal;     /* anula el word-spacing: 5px de .extra3 */
+}
+.entrada p, .entrada h2, .entrada h3,
+.blog-indice p, .blog-indice h2, .blog-indice h3 {
+  width: auto;
+  margin-left: 0;           /* anula la sangría de computadora de temas.css */
+  margin-right: 0;
+  text-align: left;
+}
+
+/* --- Teléfono: el padding de .extra3 no debe desbordar ---------------- */
+@media (max-width: 767px) {
+  .extra3 { box-sizing: border-box; }
+}
+
+/* --- Imágenes y video: nunca más anchos que la pantalla -------------- */
+img, iframe { max-width: 100%; }
+img[width]:not([height]) { height: auto; }
+
+/* --- Encabezado de la entrada ---------------------------------------- */
+.entrada header h1 { margin-bottom: .4em; line-height: 1.2; }
+.meta { margin: 0 0 .6em; color: #d9f1e9; }
+
+/* --- Etiquetas -------------------------------------------------------- */
+.etiquetas {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  margin: .6em 0 1.5em;
+  padding: 0;
+}
+.etiquetas a,
+a.etiqueta {
+  display: inline-block;
+  border: 1px solid #38ffdb;
+  border-radius: 1em;
+  padding: 0 .7em;
+  font-size: .9em;
+  text-decoration: none;
+}
+.etiquetas a:hover,
+a.etiqueta:hover { background: #38ffdb; color: #000; }
+
+/* --- Secciones con ancla ---------------------------------------------- */
+.entrada h2 {
+  margin: 1.8em 0 .6em;
+  line-height: 1.25;
+  scroll-margin-top: 1rem;
+}
+.entrada h2 .ancla {
+  margin-left: .4em;
+  font-size: .8em;
+  text-decoration: none;
+  opacity: 0;
+}
+.entrada h2:hover .ancla,
+.entrada h2 .ancla:focus { opacity: 1; }
+@media (hover: none) { .entrada h2 .ancla { opacity: .5; } }  /* táctil: sin hover */
+
+/* --- Imágenes con epígrafe -------------------------------------------- */
+.entrada figure { margin: 1.5em 0; text-align: center; }
+.entrada figure img { max-width: 100%; height: auto; }
+.entrada figcaption {
+  margin-top: .4em;
+  font-size: .9em;
+  color: #d9f1e9;
+  opacity: .85;
+  text-align: center;
+}
+
+/* --- Citas ------------------------------------------------------------- */
+.entrada blockquote {
+  margin: 1.5em 0;
+  padding: .1em 1em;
+  border-left: 3px solid #38ffdb;
+}
+.entrada blockquote p { margin: .6em 0; font-style: italic; }
+.entrada blockquote p.fuente { font-style: normal; font-size: .9em; opacity: .85; }
+
+/* --- Anterior / siguiente ---------------------------------------------- */
+.entradas-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  max-width: 65ch;
+  margin: 3em auto 1em;
+  padding-top: 1em;
+  border-top: 1px solid #38ffdb;
+}
+.entradas-nav a { display: block; max-width: 48%; }
+.entradas-nav small { display: block; opacity: .8; }
+.entradas-nav .siguiente { margin-left: auto; text-align: right; }
+@media (max-width: 767px) {
+  .entradas-nav { flex-direction: column; }
+  .entradas-nav a { max-width: none; }
+  .entradas-nav .siguiente { margin-left: 0; text-align: left; }
+}
+
+/* --- Índice del blog ---------------------------------------------------- */
+.filtros { display: flex; flex-wrap: wrap; gap: .5em; margin: 1em 0; }
+.filtros[hidden] { display: none; }
+.filtros button {
+  font: inherit;
+  color: #38ffdb;
+  background: transparent;
+  border: 1px solid #38ffdb;
+  border-radius: 1em;
+  padding: 0 .8em;
+  cursor: pointer;
+}
+.filtros button[aria-pressed="true"] { background: #38ffdb; color: #000; }
+
+.anios { display: flex; flex-wrap: wrap; gap: 1em; margin: 1em 0; }
+.anio h2 { margin: 2em 0 1em; border-bottom: 1px solid #38ffdb; scroll-margin-top: 1rem; }
+.anio[hidden], .item[hidden] { display: none; }
+.item { margin: 0 0 1.6em; }
+.item h3 {
+  margin: 0;
+  font-family: "Zilla Slab Highlight", serif;
+  font-size: 1.2em;
+  line-height: 1.25;
+}
+.item .extracto { margin: .3em 0 0; }
