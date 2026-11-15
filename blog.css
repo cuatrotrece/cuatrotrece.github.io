@@ -135,12 +135,12 @@ a.etiqueta:hover { background: #38ffdb; color: #000; }
   .blog-indice,
   .entrada {
     max-width: none;
-    padding-left: 10px;    /* 10px de acá + 10px de padding de .extra3 = 20px */
-    padding-right: 10px;
+    padding-left: 20px;    /* 10px de acá + 10px de padding de .extra3 = 20px */
+    padding-right: 20px;
   }
   .entradas-nav {          /* la línea y los enlaces de anterior/siguiente, alineados con el texto */
     max-width: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
