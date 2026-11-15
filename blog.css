@@ -14,12 +14,7 @@
   margin-right: 0;
   text-align: left;
 }
-@media (min-width: 768px) {
-  .blog-indice {
-    max-width: none;
-    padding: 0 20px;   /* 10px de acá + 10px de padding de .extra3 = 20px */
-  }
-}
+
 /* --- Teléfono: el padding de .extra3 no debe desbordar ---------------- */
 @media (max-width: 767px) {
   .extra3 { box-sizing: border-box; }
@@ -135,3 +130,17 @@ a.etiqueta:hover { background: #38ffdb; color: #000; }
   line-height: 1.25;
 }
 .item .extracto { margin: .3em 0 0; }
+
+@media (min-width: 768px) {
+  .blog-indice,
+  .entrada {
+    max-width: none;
+    padding-left: 10px;    /* 10px de acá + 10px de padding de .extra3 = 20px */
+    padding-right: 10px;
+  }
+  .entradas-nav {          /* la línea y los enlaces de anterior/siguiente, alineados con el texto */
+    max-width: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
